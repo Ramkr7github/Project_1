@@ -1,0 +1,154 @@
+
+body{
+  height: 50%;
+  width: 50%;
+  margin:auto;
+  padding: 0;
+}
+
+li:nth-child(1) {
+  position: relative;
+  left: 202px;
+  bottom: 50px;
+  font-size: 22px;
+  font-weight: bold;
+}
+li:nth-child(1):after {
+  content: " ";
+  position: absolute;
+  left: 12px;
+  display: block;
+  width: 2%;
+  height: 2px;
+  background-color: black;
+}
+li:nth-child(2) {
+  position: relative;
+  left: 285px;
+  bottom: 72px;
+  font-size: 18px;
+  font-weight: bold;
+}
+li:nth-child(3) {
+  position: relative;
+  left: 365px;
+  bottom: 94px;
+  font-size: 20px;
+  font-weight: normal;
+}
+li:nth-child(4) {
+  position: relative;
+  left: 455px;
+  bottom: 116px;
+  font-size: 20px;
+  font-weight: normal;
+}
+li:nth-child(5) {
+  position: relative;
+  left: 525px;
+  bottom: 138px;
+  font-size: 20px;
+  font-weight: normal;
+}
+li {
+  list-style: none;
+}
+div.search-icon {
+  position: relative;
+  left: 766px;
+  bottom: 180px;
+}
+svg {
+  width: 20px;
+}
+.nav-button {
+  position: relative;
+  left: 800px;
+  bottom: 218px;
+  background-color: #fff;
+  width: 120px;
+  padding: 3px;
+  border-radius: 8px;
+}
+img[alt="person-hero-iamge"] {
+  position: relative;
+  bottom: 330px;
+  width: 280px;
+}
+img[alt="square-pattern"] {
+  position: relative;
+  top: 55px;
+  left: 120px;
+  width: 200px;
+}
+img[alt="start-pattern"] {
+  position: relative;
+  left: 750px;
+  bottom: 290px;
+  width: 30px;
+}
+img[alt="brand-logo"] {
+  width: 80px;
+}
+
+img[alt="globe-pattern"] {
+  position: relative;
+  left: 220px;
+  bottom: 320px;
+  width: 40px;
+}
+.hero-heading {
+  position: relative;
+  left: 370px;
+  bottom: 670px;
+  font-size: 70px;
+  font-family: "Times New Roman", serif;
+}
+.hero-description {
+  position: relative;
+  left: 440px;
+  bottom: 700px;
+  text-align: center;
+  width: 550px;
+}
+.button-email {
+  position: relative;
+  left: 600px;
+  bottom: 630px;
+  width: 150px;
+  padding: 6px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+.button-join {
+  position: relative;
+  left: 620px;
+  bottom: 630px;
+  background-color: black;
+  color: white;
+  border-radius: 12px;
+  padding: 6px;
+  width: 120px;
+  font-size: 16px;
+  
+}
+div.icons {
+  position: relative;
+  left: 630px;
+  bottom: 580px;
+}
+.contact-heading {
+  position: relative;
+  left: 700px;
+  bottom: 580px;
+  font-size: 20px;
+  color: #948f8f;
+}
+span {
+  padding: 6px;
+}
+.container {
+  position: relative;
+  padding: 50px;
+  top: 50px;
+}
